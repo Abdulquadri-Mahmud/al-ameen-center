@@ -5,7 +5,7 @@ import { useColorModeValue } from '@chakra-ui/react';
 export default function Accordions() {
   return (
     <>
-        <Flex justifyContent={'center'} gap={{xl:10, md: 7}}>
+        <Flex justifyContent={'center'} gap={{xl:7, md: 4}}>
             <Box className="accordion">
                 <input type="checkbox" id="dropdown1" className='cursor-pointer hidden'/>
                 <label htmlFor="dropdown1" className="cursor-pointer relative font-semibold">About Us</label>

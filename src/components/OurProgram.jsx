@@ -12,13 +12,13 @@ export default function OurProgram() {
   return (
     <>
         <Box my={{base:10, md: 10}} p={3} width={{base: '100%', md:'70%'}} mx={'auto'}>
-            <Heading fontSize={25} textAlign={'center'} pb={7}>Our Progam</Heading>
+            <Heading fontSize={25} textAlign={'center'} pb={7}>Our Progams</Heading>
             <Accordion allowMultiple>
                 <AccordionItem p={2}>
                     <h2>
                         <AccordionButton>
                             <Box as="span" flex='1' fontWeight={600} textAlign='left'>
-                            1.1. Our flagship program 
+                            Our flagship program 
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
@@ -32,7 +32,7 @@ export default function OurProgram() {
                     <h2>
                         <AccordionButton>
                             <Box as="span" flex='1' fontWeight={600} textAlign='left'>
-                            1.2. Weekend Program
+                            Weekend Program
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
@@ -45,7 +45,7 @@ export default function OurProgram() {
                     <h2>
                         <AccordionButton>
                             <Box as="span" flex='1' fontWeight={600} textAlign='left'>
-                            1.3. Holiday Program
+                            Holiday Program
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
@@ -58,7 +58,7 @@ export default function OurProgram() {
                     <h2>
                         <AccordionButton>
                             <Box as="span" flex='1' fontWeight={600} textAlign='left'>
-                            1.4 Holiday in Nigeria Program
+                            Holiday in Nigeria Program
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
@@ -67,22 +67,15 @@ export default function OurProgram() {
                     This is a dedicated fun filled learning program for our diaspora over the summer holidays. It has to be fun-filled because of the huge change in environment for these kids and to enhance their learning. Particular attention is also paid to the diet of such kids not necessarily in terms of nutrients but in terms of options
                     </AccordionPanel>
                 </AccordionItem>
-                <AccordionItem p={2}>
-                    <h2>
-                        <AccordionButton>
-                            <Box as="span" flex='1' fontWeight={600} textAlign='left'>
-                                1.5. Key Deliverables (in-shaa Allah)
-                            </Box>
-                            <AccordionIcon />
-                        </AccordionButton>
-                    </h2>
-                    <AccordionPanel pb={4} fontWeight={600} lineHeight={2}>
-                        <Text>Qur’an memorisation program</Text>
-                        <Text>Excellent behavioural adabs</Text>
-                        <Text>Confidence in using transactional Arabic words in basic conversations</Text>
-                    </AccordionPanel>
-                </AccordionItem>
             </Accordion>
+            <Box pt={10}>
+                <Heading fontSize={25} fontWeight={500}>Key Deliverables (in-shaa Allah)</Heading>
+                <Box pt={2}>
+                    <Text pt={3} fontWeight={500}>Qur’an memorisation program</Text>
+                    <Text pt={3} fontWeight={500}>Excellent behavioural adabs</Text>
+                    <Text pt={3} fontWeight={500}>Confidence in using transactional Arabic words in basic conversations</Text>
+                </Box>
+            </Box>
         </Box>
     </>
   )

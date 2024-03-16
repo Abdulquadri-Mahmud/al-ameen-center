@@ -2,10 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { Box, Button,Flex, Heading, Text, Image } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';
 
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
 import image1 from './our-houses-img/image6.jpg';
 import image2 from './our-houses-img/image14.jpg';
 import image3 from './our-houses-img/image10.jpg';
@@ -14,20 +10,10 @@ import image5 from './our-houses-img/image12.jpg';
 import image6 from './our-houses-img/image13.jpg';
 
 export default function OurHouses() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    pauseOnHover: true
-  };
   
-
   return (
     <Box>
-      <Box px={{md:10, base: 5}} py={{md:10, base: 10}}>
+      <Box px={{md:10, base: 0}} py={{md:10, base: 10}}>
           <Heading fontSize={25} textAlign={'center'}>
               Our Houses
           </Heading>

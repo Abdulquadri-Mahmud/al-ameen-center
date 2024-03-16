@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Image, Flex, Input,FormLabel, Checkbox, Button } from '@chakra-ui/react';
-import logo1 from '../../Logo/logo3.png';
+import logo1 from '../../Logo/logo3.jpg';
 import { Link } from 'react-router-dom';
 import { useColorModeValue } from '@chakra-ui/react';
 import Themes from '../../../components/Themes';

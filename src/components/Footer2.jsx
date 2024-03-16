@@ -15,11 +15,6 @@ import {
 export default function Footer2() {
   return (
     <Box className='py-10 px-6 mt-10' color={useColorModeValue('white', 'white')} bg={useColorModeValue('purple.900', 'gray.700')}>
-        {/* <Flex justifyContent={'center'} boxSize={20} bg={'white'} rounded={10}>
-            <Link to='/'>
-                <Image src={logo1} alt='logo' maxW={'full'} maxH={'full'} rounded='5px'/>
-            </Link>
-        </Flex> */}
         <div className='mt-7 grid md:grid-cols-4 grid-cols-1 gap-10'>
             <Box>
                 <Heading fontSize={25} fontWeight={500} textDecor={'underline'}>About Us</Heading>

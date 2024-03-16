@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function Contact() {
   return (
-    <Box bg={useColorModeValue('gray.200', 'gray.800')} py={{base: 10, md:20}} px={{base: 2, md: 10}}>
+    <Box bg={useColorModeValue('gray.200', 'gray.800')} py={{base: 10, md:0}} px={{base: 2, md: 10}}>
         <div className='contactBgImage'>
             <Box  p={{md:4, base: 2}} bg={'gray.200'} w={{xl:'65%', base: '95%'}} rounded={10} margin={1} >
                 <h1 className="pt-3 pb-4 text-green-600 text-3xl font-semibold text-center">Connect With Us</h1>

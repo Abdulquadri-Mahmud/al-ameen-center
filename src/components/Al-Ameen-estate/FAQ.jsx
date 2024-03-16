@@ -20,15 +20,15 @@ export default function FAQ() {
           <AccordionItem p={2}>
               <h2>
                   <AccordionButton>
-                      <Box as="span" flex='1' fontWeight={600} textAlign='left'>
-                        <Heading fontSize={16} fontWeight={600} color={useColorModeValue('red.600', 'white')}>
+                      <Box as="span" flex='1' fontWeight={500} textAlign='left'>
+                        <Heading fontSize={16} fontWeight={500} color={useColorModeValue('red.600', 'white')}>
                             Question 1: What drove you and your team to think about setting up an estate such as Al-Ameen Estate
                         </Heading>
                       </Box>
                       <AccordionIcon />
                   </AccordionButton>
               </h2>
-              <AccordionPanel p={5} fontWeight={600} lineHeight={2}>
+              <AccordionPanel p={5} fontWeight={500} lineHeight={2}>
                 <Text>In its simplest form, I will say “value for life”. An 
                   Arabic proverb says, choose your neighbor 
                   before you build your house. There are so many 
@@ -56,8 +56,8 @@ export default function FAQ() {
           <AccordionItem p={2}>
               <h2>
                   <AccordionButton>
-                      <Box as="span" flex='1' fontWeight={600} textAlign='left'>
-                        <Heading fontSize={16} fontWeight={600} color={useColorModeValue('red.600', 'white')}>
+                      <Box as="span" flex='1' fontWeight={500} textAlign='left'>
+                        <Heading fontSize={16} fontWeight={500} color={useColorModeValue('red.600', 'white')}>
                           Question 2: What do I stand to gain from 
                           living in Al-Ameen Estate
                         </Heading>
@@ -65,7 +65,7 @@ export default function FAQ() {
                       <AccordionIcon />
                   </AccordionButton>
               </h2>
-              <AccordionPanel pb={4} fontWeight={600} lineHeight={2}>
+              <AccordionPanel pb={4} fontWeight={500} lineHeight={2}>
                 <Text>Great question but indeed the answer is not 
                   about just you rather It is about you and the 
                   quality of life you provide for your own self and 
@@ -88,8 +88,8 @@ export default function FAQ() {
           <AccordionItem p={2}>
               <h2>
                   <AccordionButton>
-                      <Box as="span" flex='1' fontWeight={600} textAlign='left'>
-                        <Heading fontSize={16} fontWeight={600} color={useColorModeValue('red.600', 'white')}>
+                      <Box as="span" flex='1' fontWeight={500} textAlign='left'>
+                        <Heading fontSize={16} fontWeight={500} color={useColorModeValue('red.600', 'white')}>
                           Question 3: What options do I have to come 
                           into Al-Ameen Estate? Is it only Land that I can 
                           buy? How about if I want to buy a house? Are 
@@ -100,7 +100,7 @@ export default function FAQ() {
                       <AccordionIcon />
                   </AccordionButton>
               </h2>
-              <AccordionPanel pb={4} fontWeight={600} lineHeight={2}>
+              <AccordionPanel pb={4} fontWeight={500} lineHeight={2}>
                 <Text>
                   We are quite flexible. We understand the 
                   challenges of the economy so we do not demand 
@@ -118,8 +118,8 @@ export default function FAQ() {
           <AccordionItem p={2}>
               <h2>
                   <AccordionButton>
-                      <Box as="span" flex='1' fontWeight={600} textAlign='left'>
-                        <Heading fontSize={16} fontWeight={600} color={useColorModeValue('red.600', 'white')}>
+                      <Box as="span" flex='1' fontWeight={500} textAlign='left'>
+                        <Heading fontSize={16} fontWeight={500} color={useColorModeValue('red.600', 'white')}>
                           Question 4: Do you have any payment 
                           structure? Do I need to look for all the money 
                           before I can buy into Al-Ameen Estate? 
@@ -128,7 +128,7 @@ export default function FAQ() {
                       <AccordionIcon />
                   </AccordionButton>
               </h2>
-              <AccordionPanel pb={4} fontWeight={600} lineHeight={2}>
+              <AccordionPanel pb={4} fontWeight={500} lineHeight={2}>
                 <Text>
                 Certainly not. But the best way to approach this 
                 and ensure you have a deal that can work for you 
@@ -143,8 +143,8 @@ export default function FAQ() {
           <AccordionItem p={2}>
               <h2>
                   <AccordionButton>
-                      <Box as="span" flex='1' fontWeight={600} textAlign='left'>
-                        <Heading fontSize={16} fontWeight={600} color={useColorModeValue('red.600', 'white')}>
+                      <Box as="span" flex='1' fontWeight={500} textAlign='left'>
+                        <Heading fontSize={16} fontWeight={500} color={useColorModeValue('red.600', 'white')}>
                           Question 5: What is your plan to ensure 
                           Al-Ameen Estate remains a lovely place to live?
                         </Heading>
@@ -152,7 +152,7 @@ export default function FAQ() {
                       <AccordionIcon />
                   </AccordionButton>
               </h2>
-              <AccordionPanel pb={4} fontWeight={600} lineHeight={2}>
+              <AccordionPanel pb={4} fontWeight={500} lineHeight={2}>
                 <Text>
                 This is a question that is dear to us at Al-Ameen 
                 Estate. It is made alive in the agreements that we 
@@ -170,8 +170,8 @@ export default function FAQ() {
           <AccordionItem p={2}>
               <h2>
                   <AccordionButton>
-                      <Box as="span" flex='1' fontWeight={600} textAlign='left'>
-                        <Heading fontSize={16} fontWeight={600} color={useColorModeValue('red.600', 'white')}>
+                      <Box as="span" flex='1' fontWeight={500} textAlign='left'>
+                        <Heading fontSize={16} fontWeight={500} color={useColorModeValue('red.600', 'white')}>
                           Question 6: For someone who lives abroad 
                           or maybe in distant locations within Nigeria 
                           such as Port-Harcourt but have aged parents 
@@ -183,7 +183,7 @@ export default function FAQ() {
                       <AccordionIcon />
                   </AccordionButton>
               </h2>
-              <AccordionPanel pb={4} fontWeight={600} lineHeight={2}>
+              <AccordionPanel pb={4} fontWeight={500} lineHeight={2}>
                 <Text>
                   This area is indeed one of the unique add-ons 
                   that Al-Ameen Estate brings. What better 
@@ -203,8 +203,8 @@ export default function FAQ() {
           <AccordionItem p={2}>
               <h2>
                   <AccordionButton>
-                      <Box as="span" flex='1' fontWeight={600} textAlign='left'>
-                        <Heading fontSize={16} fontWeight={600} color={useColorModeValue('red.600', 'white')}>
+                      <Box as="span" flex='1' fontWeight={500} textAlign='left'>
+                        <Heading fontSize={16} fontWeight={500} color={useColorModeValue('red.600', 'white')}>
                           Question 7: Alright, can you please tell us 
                           some more about this Estate?
                         </Heading>
@@ -212,7 +212,7 @@ export default function FAQ() {
                       <AccordionIcon />
                   </AccordionButton>
               </h2>
-              <AccordionPanel pb={4} fontWeight={600} lineHeight={2}>
+              <AccordionPanel pb={4} fontWeight={500} lineHeight={2}>
                 <Text>
                   Al-Ameen Estate is a gated Muslim 
                   community located along Oluodo Road, at the 

@@ -1,7 +1,7 @@
 import { Box, Flex, Heading, Text } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';
 import { Link } from 'react-router-dom'; 
-import { FaArrowDownAZ, FaFacebookF, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa6';
+import { FaFacebookF, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa6';
 import { IoLogoYoutube } from 'react-icons/io5';
 import {
     Accordion,
@@ -15,18 +15,12 @@ import {
 export default function Footer3() {
   return (
     <Box className='py-10 px-5 mt-10' color={useColorModeValue('white', 'white')} bg={useColorModeValue('red.600', 'gray.700')}>
-        {/* <Box boxSize={20} bg={'white'} rounded={10}>
-            <Link to='/'>
-                <Image src={logo1} alt='logo' maxW={'full'} maxH={'full'} rounded='5px'/>
-            </Link>
-        </Box> */}
         <div className='mt-7 grid md:grid-cols-4 grid-cols-1 gap-5'>
             <Box>
                 <Heading fontSize={25} fontWeight={500} textDecor={'underline'}>About Us</Heading>
                 <Box mt={4}>
                     <Text fontWeight={600}>Al-Ameen Centre is your best in class integrated Islamic Centre cultured to nurture the development of Muslim minds, within a fun-filled but... </Text>
                     <Box mt={2}>
-                        <FaArrowDownAZ className='text-white'/>
                         <Link to={'/about'} className='text-center underline font-semibold text-white'>Read More</Link>
                     </Box>
                 </Box>

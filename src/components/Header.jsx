@@ -25,10 +25,6 @@ export default function Header() {
                         <Box>
                             <Accordions/>
                         </Box>
-                        
-                        <Box pl={4}>
-                            <Link href='/testimonial' fontSize={16} fontWeight={600}>Testimonial</Link>
-                        </Box>
                     </Flex>
                 </Box>
                 <Box display={{base: 'none', md: 'block'}}>

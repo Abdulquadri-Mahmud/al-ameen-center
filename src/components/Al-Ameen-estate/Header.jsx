@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Button,Flex, Heading, Text, Image } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
-import logo from '../Logo/logo3.png'
+import logo from '../Logo/logo3.jpg'
 
 export default function Header() {
   return (
@@ -19,11 +19,11 @@ export default function Header() {
                 </Heading>
             </Flex>
             <Box py={{base: 5, md: 16}} px={{base: 3, md: 10}}>
-                <Text fontSize={16} fontWeight={600} lineHeight={2}>
-                    An Arabic proverb says, “choose your neighbor before you build your house”.  Al-Ameen estate is a gated, secured Muslim only serviced Estate within the highbrow end of Ikorodu, Lagos state for those who have the dream of living in a Muslim environment where their kids and themselves can have the best of both worlds living and playing, yes playing, in a Muslim community
-                </Text>
-                <Text fontSize={16} fontWeight={600} lineHeight={2}>
+                <Heading fontSize={20} fontWeight={500} textAlign={'center'} lineHeight={2}>
                     A beautiful world, for a beautiful hereafter.
+                </Heading>
+                <Text fontSize={16} fontWeight={500} lineHeight={2} pt={3}>
+                    An Arabic proverb says, “choose your neighbor before you build your house”.  Al-Ameen estate is a gated, secured Muslim only serviced Estate within the highbrow end of Ikorodu, Lagos state for those who have the dream of living in a Muslim environment where their kids and themselves can have the best of both worlds living and playing, yes playing, in a Muslim community
                 </Text>
             </Box>
         </Box>

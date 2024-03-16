@@ -11,7 +11,7 @@ export default function AboutalmeenIntegratededu() {
         <MainHeader/>
         <Box>
             <Flex justifyContent={'center'} position={'relative'} flexDirection={'column'} alignItems={'center'} className='contact'>
-                <Heading color={'white'} fontSize={30} fontWeight={500} textAlign={'center'}>About <br /> Al-Ameen Integrated Education</Heading>
+                <Heading color={'white'} fontSize={30} fontWeight={500} textAlign={'center'}>About <br /> Al-Ameen Integrated Education College</Heading>
                 <Box color={'white'} mt={5}>
                     <Link to={'/'} className='font-semibold text-1xl underline'>Home</Link>
                     <span> / </span>
