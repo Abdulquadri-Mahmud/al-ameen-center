@@ -17,13 +17,13 @@ export default function OurProgram() {
                 <AccordionItem p={2}>
                     <h2>
                         <AccordionButton>
-                            <Box as="span" flex='1' fontWeight={600} textAlign='left'>
+                            <Box as="span" flex='1' fontWeight={500} fontSize={17} textAlign='left'>
                             Our flagship program 
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
                     </h2>
-                    <AccordionPanel p={5} fontWeight={600} lineHeight={2}>
+                    <AccordionPanel p={5} fontWeight={500}>
                     Our flagship program is a full-time boarding program which should last at least 1 year subject to the learning rate of each individual learner and the basics that has been learnt before admission into ACQM. As a minimum, a learner should prepare for one year. 
                     </AccordionPanel>
                 </AccordionItem>
@@ -31,39 +31,39 @@ export default function OurProgram() {
                 <AccordionItem p={2}>
                     <h2>
                         <AccordionButton>
-                            <Box as="span" flex='1' fontWeight={600} textAlign='left'>
+                            <Box as="span" flex='1' fontWeight={500} fontSize={17} textAlign='left'>
                             Weekend Program
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
                     </h2>
-                    <AccordionPanel pb={4} fontWeight={600} lineHeight={2}>
+                    <AccordionPanel pb={4} fontWeight={500}>
                     We run a weekend only program for learners who have not yet decided to commit to the full-time program. Resumption is immediately after Asr on Fridays and departure is after Asr on Sundays. 
                     </AccordionPanel>
                 </AccordionItem>
                 <AccordionItem p={2}>
                     <h2>
                         <AccordionButton>
-                            <Box as="span" flex='1' fontWeight={600} textAlign='left'>
+                            <Box as="span" flex='1' fontWeight={500} fontSize={17} textAlign='left'>
                             Holiday Program
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
                     </h2>
-                    <AccordionPanel pb={4} fontWeight={600} lineHeight={2}>
+                    <AccordionPanel pb={4} fontWeight={500}>
                         We run short Full Time boarding Programs during the school holidays available on request. Please contact our Customer Service desk early enough to reserve a place for your ward ahead of any school holidays.
                     </AccordionPanel>
                 </AccordionItem>
                 <AccordionItem p={2}>
                     <h2>
                         <AccordionButton>
-                            <Box as="span" flex='1' fontWeight={600} textAlign='left'>
+                            <Box as="span" flex='1' fontWeight={500} fontSize={17} textAlign='left'>
                             Holiday in Nigeria Program
                             </Box>
                             <AccordionIcon />
                         </AccordionButton>
                     </h2>
-                    <AccordionPanel pb={4} fontWeight={600} lineHeight={2}>
+                    <AccordionPanel pb={4} fontWeight={500}>
                     This is a dedicated fun filled learning program for our diaspora over the summer holidays. It has to be fun-filled because of the huge change in environment for these kids and to enhance their learning. Particular attention is also paid to the diet of such kids not necessarily in terms of nutrients but in terms of options
                     </AccordionPanel>
                 </AccordionItem>
