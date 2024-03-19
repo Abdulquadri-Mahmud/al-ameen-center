@@ -13,14 +13,14 @@ export default function Header() {
                             <Image src={logo} maxW={'full'} maxH={'full'} rounded='5px' alt='Al-Ameen Integrated Education College'/>
                         </Link>
                     </Box>
-                    <Heading fontSize={{md:25, base: 20}}>
+                    <Heading fontSize={{md:25, base: 20}} pl={{md: 0, base: 2}}>
                         Al-Ameen Integrated Education College 
                     </Heading>
                 </Flex>
                 <Box py={{base: 5, md: 16}} px={{base: 3, md: 10}}>
-                    <Text fontSize={16} fontWeight={600} lineHeight={2}>Specially designed for those who want the best of both for their kids and are willing to pursue it.</Text>
-                    <Text fontSize={16} fontWeight={600} lineHeight={2}>Al-Ameen Integrated Education College is broken into 2 sets of 4-year programs designed to produce sound Islamic and Arabic Knowledge and excellent western education all in a conducive environments</Text>
-                    <Text fontSize={16} fontWeight={600} lineHeight={2}>The first 4 years is dedicated to the Arabic program up to Thanawiyyah level of Arabic and Islamic Studies (Kewu Proper) while the second 4 years delivers the core western education.</Text>
+                    <Text fontSize={16} fontWeight={500} lineHeight={2}>Specially designed for those who want the best of both for their kids and are willing to pursue it.</Text>
+                    <Text fontSize={16} fontWeight={500} lineHeight={2}>Al-Ameen Integrated Education College is broken into 2 sets of 4-year programs designed to produce sound Islamic and Arabic Knowledge and excellent western education all in a conducive environments</Text>
+                    <Text fontSize={16} fontWeight={500} lineHeight={2}>The first 4 years is dedicated to the Arabic program up to Thanawiyyah level of Arabic and Islamic Studies (Kewu Proper) while the second 4 years delivers the core western education.</Text>
                 </Box>
             </Box>
         </Box>

@@ -16,7 +16,7 @@ export default function ACMQ() {
                         <Box>
                             <Heading fontSize={25} textAlign={'center'} pt={5} textDecor={'underline'}>-خَيْرُکُم مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ-</Heading>
                             <Box mt={{base:5, md: 7}}>
-                                <Text fontSize={16} fontWeight={600} lineHeight={2} textAlign={{base: 'center', md: 'start'}}>We, at "Al-Ameen Centre for Qur'an Memorization" are glad to provide an opportunity to support our parents on the challenging journey of getting their children to become protectors of the words  of Allah. We prioritize the raising memorizers of the Qur'an who are morally upright and spiritually sound. And that explains our motto: “Qur’an & Character”. </Text>
+                                <Text fontSize={16} fontWeight={500} lineHeight={2} textAlign={{base: 'center', md: 'start'}}>We, at "Al-Ameen Centre for Qur'an Memorization" are glad to provide an opportunity to support our parents on the challenging journey of getting their children to become protectors of the words  of Allah. We prioritize the raising memorizers of the Qur'an who are morally upright and spiritually sound. And that explains our motto: “Qur’an & Character”. </Text>
                             </Box>
                         </Box>
                         <Box mt={3}>

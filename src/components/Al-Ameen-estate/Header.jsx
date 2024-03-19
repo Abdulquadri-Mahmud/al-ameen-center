@@ -19,7 +19,7 @@ export default function Header() {
                 </Heading>
             </Flex>
             <Box py={{base: 5, md: 16}} px={{base: 3, md: 10}}>
-                <Heading fontSize={20} fontWeight={500} textAlign={'center'} lineHeight={2}>
+                <Heading fontSize={22} fontWeight={500} textAlign={'center'}>
                     A beautiful world, for a beautiful hereafter.
                 </Heading>
                 <Text fontSize={16} fontWeight={500} lineHeight={2} pt={3}>

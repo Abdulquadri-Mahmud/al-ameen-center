@@ -87,19 +87,19 @@ export default function Footer() {
                 <Box mt={4}>
                     <Box>
                         <span className='font-semibold'>Address: </span>
-                        <Text className='font-semibold'>1, Lateef Akingbade Street, Oluodo Rd, Ikorodu, Lagos</Text>
+                        <Text fontWeight={500} isTruncated>1, Lateef Akingbade Street, Oluodo Rd, Ikorodu, Lagos</Text>
                     </Box>
                     <Box>
                         <span className='font-semibold'>Email: </span>
-                        <Link to='mailto:alameencenter@gmail.com' className='font-semibold'>alameencenter@gmail.com</Link>
+                        <Link to='mailto:alameencenter@gmail.com' className='font-medium'>alameencenter@gmail.com</Link>
                     </Box>
                     <Box pt={2}>
                         <span className='font-semibold'>Phone: </span>
-                        <Link to='tel:+234-907-424-8867' className='font-semibold'>+234-907-424-8867 </Link>
+                        <Link to='tel:+234-907-424-8867' className='font-medium'>+234-907-424-8867 </Link>
                     </Box>
                     <Box pt={2}>
                         <span className='font-semibold'>Phone: </span>
-                        <Link to='tel:+234-807-746-5423' className='font-semibold'>+234-807-746-5423 </Link>
+                        <Link to='tel:+234-807-746-5423' className='font-medium'>+234-807-746-5423 </Link>
                     </Box>
                 </Box>
             </Box>
