@@ -25,9 +25,6 @@ export default function MainHeader() {
                         <Box>
                             <Accordions/>
                         </Box>
-                        <Box pl={4}>
-                            <Link to='/testimonial' className='font-semibold'>Testimonial</Link>
-                        </Box>
                     </Flex>
                 </Box>
                 <Box display={{base: 'none', md: 'block'}}>

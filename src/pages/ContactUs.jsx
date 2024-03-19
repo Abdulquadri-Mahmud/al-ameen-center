@@ -9,7 +9,6 @@ import Footer from '../components/Footer';
 
 export default function Contact() {
     const [formData, setFormData] = useState({});
-
     const handleChange = (e) => {
         setFormData({
             ...formData,
@@ -65,24 +64,19 @@ export default function Contact() {
                 </Box>
             </Box>
             <Flex justifyContent={'space-around'} flexWrap={'wrap'} alignItems={'center'} gap={4} mt={10} bg={useColorModeValue('gray.200', 'gray.700')} py={{base: 10, md:20}} px={{base: 2, md: 10}}>
-                <Box w={{xl:'40%', base: '95%'}} h={{xl: '400px',md:'400px', base: '300px'}} rounded={5}>
+                <Box w={{xl:'40%', base: '95%'}} h={{md:'360px', base: '300px'}} rounded={5}>
                 <iframe className='h-full w-full rounded-lg' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.5688363113463!2d3.4991928!3d6.5759704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bedfd470fc865%3A0xe21b408e847dfbb1!2s1%20Lateef%20Akingbade%20St%2C%20Ikorodu%2C%20104102%2C%20Lagos!5e0!3m2!1sen!2sng!4v1710369492844!5m2!1sen!2sng" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </Box>
                 <Box p={{md:4, base: 2}} bg={useColorModeValue('gray.200', 'gray.800')} flex={1} rounded={10} h={''} margin={1} >
                     <form className="md:p-3 p-2 grid grid-cols-1 md:gap-5 gap-2" onSubmit={handleSubmit}>
-                        <div className="grid md:grid-cols-2 grid-cols-1 md:gap-5 gap-3">
-                            <div className="">
-                                <input id="name" onChange={handleChange} type="text" className="w-full rounded p-3 text-1xl font-semibold bg-gray-50 outline-2 outline-green-600" placeholder="Name..."/>
-                            </div>
-                            <div className="">
-                                <input id="mobile" onChange={handleChange} type="tel" className="w-full rounded p-3 text-1xl font-semibold bg-gray-50 outline-2 outline-green-600" placeholder="Phone..."/>
-                            </div>
+                        <div className="">
+                            <input id="email" onChange={handleChange} type="email" className="w-full rounded p-3 text-1xl font-semibold bg-white outline-2 outline-green-600" placeholder="Email..."/>
                         </div>
                         <div className="">
-                            <input id="email" onChange={handleChange} type="email" className="w-full rounded p-3 text-1xl font-semibold bg-gray-50 outline-2 outline-green-600" placeholder="Email..."/>
+                            <input id="subject" onChange={handleChange} type="text" className="w-full rounded p-3 text-1xl font-semibold bg-white outline-2 outline-green-600" placeholder="Subject..."/>
                         </div>
                         <div className="">
-                            <textarea onChange={handleChange} className="w-full focus:bg-gray-700 focus:text-white text-1xl font-semibold md:mt-3 mt-2 rounded md:h-36 h-31 p-3 outline-2 text-black outline-green-600 bg-slate-100" placeholder="Type Message" id="message" >
+                            <textarea onChange={handleChange} className="w-full focus:bg-gray-700 focus:text-white text-1xl font-semibold md:mt-3 mt-2 rounded h-36 p-3 outline-2 text-black outline-green-600 bg-white" placeholder="Type Message" id="message" >
     
                             </textarea>
                         </div>
