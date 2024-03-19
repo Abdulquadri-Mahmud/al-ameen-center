@@ -28,10 +28,10 @@ export default function Footer3() {
             <Box>
                 <Heading fontSize={25} fontWeight={500} textDecor={'underline'}>Social Links</Heading>
                 <Flex flexDirection={'row'} gap={2} mt={4}>
-                    <Link to='#'><FaFacebookF className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-1"/></Link>
-                    <Link to='#'><FaInstagram className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-3"/></Link>
+                    <Link to='https://www.facebook.com/profile.php?id=100089240894472&mibextid=rS40aB7S9Ucbxw6v'><FaFacebookF className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-1"/></Link>
+                    {/* <Link to='#'><FaInstagram className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-3"/></Link>
                     <Link to='#'><FaTwitter className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-4"/></Link>
-                    <Link to='#'><IoLogoYoutube className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-3"/></Link>
+                    <Link to='#'><IoLogoYoutube className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-3"/></Link> */}
                     <Link to='#'><FaWhatsapp className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-1"/></Link>
                 </Flex>
             </Box>

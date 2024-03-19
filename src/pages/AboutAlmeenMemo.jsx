@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 import MainHeader from '../components/AlAlmeenQuranMemo/MainHeader';
 import image11 from '../assets/img/image11.jpg';
+import ACMQ from '../components/ACMQ';
+import OurProgram from '../components/OurProgram';
 
 export default function AboutAlmeenMemo() {
   return (
@@ -35,6 +37,8 @@ export default function AboutAlmeenMemo() {
                 <Image src={image11} borderRadius={6} alt='Al-Ameen Center' maxW={'full'}/>
             </Box>
         </Flex>
+        <ACMQ/>
+        <OurProgram/>
         <Footer/>
     </>
   )

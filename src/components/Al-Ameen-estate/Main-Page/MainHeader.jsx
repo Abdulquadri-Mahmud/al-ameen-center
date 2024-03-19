@@ -11,8 +11,8 @@ export default function MainHeader() {
   return (
     <div>
         <Box>
-            <Flex position={'sticky'} top={0} zIndex={100} w={'full'}  justifyContent={'space-between'} alignItems={'center'} py={0} px={{base: 5, md: 10}} boxShadow={'md'} bgColor={useColorModeValue('gray.200', 'gray.800')}>
-                <Box boxSize={16} bg={'red.600'}>
+            <Flex position={'sticky'} left={0} top={0} zIndex={100} w={'full'}  justifyContent={'space-between'} alignItems={'center'} py={3} px={{base: 2, md: 10}} boxShadow={'md'} bgColor={useColorModeValue('gray.200', 'gray.800')}>
+                <Box boxSize={'50px'}>
                     <Link to='/'>
                         <Image src={logo1} alt='logo' maxW={'full'} maxH={'full'} rounded='5px'/>
                     </Link>

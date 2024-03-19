@@ -7,9 +7,9 @@ export default function Contact() {
   return (
     <Box bg={useColorModeValue('gray.200', 'gray.800')} py={{base: 10, md:0}} px={{base: 2, md: 10}}>
         <div className='contactBgImage'>
-            <Box  p={{md:4, base: 2}} bg={'gray.200'} w={{xl:'65%', base: '95%'}} rounded={10} margin={1} >
-                <h1 className="pt-3 pb-4 text-green-600 text-3xl font-semibold text-center">Connect With Us</h1>
-                <form className="md:p-3 p-2 grid grid-cols-1 md:gap-5 gap-2">
+            <Box  p={{md:4, base: 2}} bg={'tranparent'} w={{xl:'65%', base: '95%'}} rounded={10} margin={1} >
+                <h1 className="pt-3 pb-7 text-gray-100 text-3xl font-semibold text-center">Connect With Us</h1>
+                <form className="md:p-3 p-2 grid grid-cols-1 md:gap-7 gap-2">
                     <div className="grid md:grid-cols-3 grid-cols-1 md:gap-5 gap-3">
                         <div className="">
                             <input id="name" type="text" className="w-full rounded p-3 text-1xl font-semibold bg-gray-50 outline-2 outline-green-600" placeholder="Name..."/>

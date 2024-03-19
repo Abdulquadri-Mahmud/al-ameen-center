@@ -30,6 +30,7 @@ export default function Sidebar() {
                                 <SidebarAccordion/>
                             </Flex>
                             <Link className='font-semibold text-black' to='/contact'>Contact Us</Link>
+                            <Link to='/testimonial' className='font-semibold text-black'>Testimonial</Link>
                             <Link className='font-semibold text-black' to='/ourhouses'>Our Houses</Link>
                             <Link className='font-semibold text-black' to='/estate-design'>Estate Design</Link>
                         </Flex>

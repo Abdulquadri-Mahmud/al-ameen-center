@@ -11,7 +11,7 @@ export default function Page() {
     <Box>
         <Header/>
         <AboutUs/>
-        <OurHouses/>
+        {/* <OurHouses/> */}
         {/* <EstateDesign/> */}
         {/* <FAQ/> */}
         {/* <ContactUs/> */}

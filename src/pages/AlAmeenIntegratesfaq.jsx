@@ -3,14 +3,15 @@ import { Box, Heading, Flex} from '@chakra-ui/react';
 import FAQ from '../components/Al-Ameen-Integrated-College/FAQ';
 import Footer2 from '../components/Footer2';
 import { Link } from 'react-router-dom';
+import MainHeader from '../components/Al-Ameen-Integrated-College/Main-Page/MainHeader';
 
 export default function AlAmeenIntegratesfaq() {
   return (
     <Box>
-      <Header/>
+      <MainHeader/>
       <Box>
-        <Flex justifyContent={'center'} position={'relative'} flexDirection={'column'} alignItems={'center'} className='contact'>
-            <Heading color={'white'} fontSize={30} fontWeight={500} textAlign={'center'}>Al-Ameen <br /> Integrated Education FAQ</Heading>
+        <Flex justifyContent={'center'} position={'relative'} flexDirection={'column'} alignItems={'center'} w={'full'} className='contact'>
+            <Heading color={'white'} fontSize={{md:30, base: 25}} fontWeight={500} textAlign={'center'}>Al-Ameen <br /> Integrated Education FAQ</Heading>
             <Box color={'white'} mt={5}>
                 <Link to={'/'} className='font-semibold text-1xl underline'>Home</Link>
                 <span> / </span>

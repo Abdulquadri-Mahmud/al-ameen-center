@@ -66,7 +66,7 @@ export default function ITHubTestimonial() {
                         <Text py={2} fontWeight={500}>
                             I also thank my dad who encouraged me to take this huge step in life. May Allah reserve for him the highest level of Jannah(Aljannah Firdaws) and may Allah SWT make this knowledge beneficial to me and the ummah at large fi Dunyah Wal Akhirah. (Ameen).
                         </Text>
-                        <Text py={2} fontWeight={500}>From Mutmainah Adewoye, 400L medical student(2024)</Text>
+                        <Text py={2} fontWeight={900}>From Mutmainah Adewoye, 400L medical student(2024)</Text>
                     </Box>
                     <Box color={useColorModeValue('black', 'black')}>
                         <Text py={2} fontWeight={500}>
@@ -79,7 +79,7 @@ export default function ITHubTestimonial() {
                         <Text py={2} fontWeight={500}>
                             I also thank my dad who encouraged me to take this huge step in life. May Allah reserve for him the highest level of Jannah(Aljannah Firdaws) and may Allah SWT make this knowledge beneficial to me and the ummah at large fi Dunyah Wal Akhirah. (Ameen).
                         </Text>
-                        <Text fontWeight={500}>From Mutmainah Adewoye, 400L medical student(2024)</Text>
+                        <Text fontWeight={900}>From Mutmainah Adewoye, 400L medical student(2024)</Text>
                     </Box>
                 </Slider>
             </Box>

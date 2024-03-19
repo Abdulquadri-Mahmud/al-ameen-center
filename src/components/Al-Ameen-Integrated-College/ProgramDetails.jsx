@@ -1,4 +1,4 @@
-import { Box,Heading, Text, UnorderedList,ListItem } from '@chakra-ui/react';
+import { Box,Heading, Text } from '@chakra-ui/react';
 
 export default function ProgramDetails() {
   return (
@@ -13,18 +13,6 @@ export default function ProgramDetails() {
                 We are in'shaa Allah on track to shortly commence our A'level program which would complement this effort and enable our graduands move into university at 200L if they wish.
                 we plan to add A level school (1yr). This A’level school may enable anyone who is particularly age centric cut back 1 year in the university although for us, we think age 23 is great enough as there are even advantages in maturity.
             </Text>
-        </Box>
-        <Box pt={7}>
-            <Heading fontSize={25}>Who is this for (Admission Requirements)</Heading>
-            <Text pt={3} fontSize={{md: 16, base: 16}} fontWeight={600}>
-                For parents who wants their kids to have best of both worlds.
-            </Text>
-            <UnorderedList pt={3} fontWeight={600} fontSize={{md: 16, base: 16}}>
-                <ListItem lineHeight={2}>To be admitted, a child must have completed primary school education (Pry 5 or 6 depending)</ListItem>
-                <ListItem lineHeight={2}>Must already be able to read the Qur'an</ListItem>
-                <ListItem lineHeight={2}>He or she must be at least 9 years old and aged 11 max</ListItem>
-                <ListItem lineHeight={2}>Mode of instruction is Arabic and English to maximize learning but leraner does not need to know any Arabic at resumption.</ListItem>
-            </UnorderedList>
         </Box>
     </Box>
   )
