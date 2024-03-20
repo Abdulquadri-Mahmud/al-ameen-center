@@ -19,7 +19,7 @@ export default function ACMQ() {
                                 <Text fontSize={16} fontWeight={500} lineHeight={2} textAlign={{base: 'center', md: 'start'}}>We, at "Al-Ameen Centre for Qur'an Memorization" are glad to provide an opportunity 
                                 to support our parents on the challenging journey of getting their children to become protectors 
                                 of the words  of Allah. We prioritize the raising memorizers of the Qur'an who are morally upright
-                                and spiritually sound. And that explains our motto: <br /> <span className='text-green-700 font-bold'>“Qur’an & Character”.</span></Text>
+                                and spiritually sound. And that explains our motto: <span className='text-green-700 font-bold'>“Qur’an & Character”.</span></Text>
                             </Box>
                         </Box>
                         <Box mt={6}>
