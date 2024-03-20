@@ -4,7 +4,7 @@ import { useColorModeValue } from '@chakra-ui/react';
 
 export default function AdmissionCyclePDF() {
     const downloadFile = () => {
-        const pdfUrl = '../../../public/Calendar.pdf';
+        const pdfUrl = '../../public/Calendar.pdf';
         const link = document.createElement('a');
         link.href = pdfUrl;
         link.download = 'Calendar.pdf';

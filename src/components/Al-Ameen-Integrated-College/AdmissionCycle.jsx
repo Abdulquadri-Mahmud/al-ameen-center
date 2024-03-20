@@ -1,6 +1,6 @@
 import { Box,Flex, Heading, Text } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';
-import AdmissionCyclePDF from './AdmissionCyclePDF';
+import AdmissionCyclePDF from '../AdmissionCyclePDF';
 
 export default function AdmissionCycle() {
   return (

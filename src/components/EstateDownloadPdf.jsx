@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function DownloadPdf() {
+export default function EstateDownloadPdf() {
     const downloadFile = () => {
-        const pdfUrl = '../../../public/FAQAlAmeenEstate.pdf';
+        const pdfUrl = '../../public/FAQAlAmeenEstate.pdf';
         const link = document.createElement('a');
         link.href = pdfUrl;
         link.download = 'FAQ-Al-Ameen-Estate.pdf';

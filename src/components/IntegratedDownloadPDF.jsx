@@ -2,9 +2,9 @@ import React from 'react';
 import { Button } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';
 
-export default function DownloadPdf() {
+export default function IntegratedDownloadPdf() {
     const downloadFile = () => {
-        const pdfUrl = '../../../public/FAQ-Al-Ameen-Integrated-Education-College.pdf';
+        const pdfUrl = '../../public/FAQ-Al-Ameen-Integrated-Education-College.pdf';
         const link = document.createElement('a');
         link.href = pdfUrl;
         link.download = 'FAQ-Al-Ameen-Integrated-Education-College.pdf';

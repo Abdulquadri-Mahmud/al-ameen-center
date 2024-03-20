@@ -8,9 +8,7 @@ import {
   AccordionPanel,
   AccordionIcon,
 } from '@chakra-ui/react'
-import { Link } from 'react-router-dom';
-// import pdf from '../Faqpdf/FAQ-Al-Ameen-Estate.pdf'
-import DownloadPdf from './DownloadPdf';
+import EstateDownloadPdf from '../EstateDownloadPdf';
 
 export default function FAQ() {
   const handleDownload = () => {
@@ -238,10 +236,10 @@ export default function FAQ() {
             </AccordionItem>
         </Accordion>
       </Box>
+      <EstateDownloadPdf/>
       {/* <Box pt={5} pl={5}>
         <button onClick={handleDownload}>Download FAQ PDF</button>
       </Box> */}
-      <DownloadPdf/>
     </Box>
   )
 }
