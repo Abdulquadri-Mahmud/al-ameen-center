@@ -24,18 +24,18 @@ export default function Sidebar() {
                         <Flex justifyContent={'center'} alignItems={'center'} boxSize={10} border={'2px'} borderColor={'gray.700'} borderRadius={5} cursor={'pointer'} position={'absolute'} top={8} left={3}>
                             <IoClose className='cursor-pointer font-semibold text-3xl text-gray-700' onClick={closeSideBar}/>
                         </Flex>
-                        <Flex flexDirection={'column'} mt={16} gap={5} padding={10}>
+                        <Flex flexDirection={'column'} mt={24} gap={5} padding={5}>
                             <Link className='font-medium text-black' to='/'>Home</Link>
                             <Flex flexDirection={'column'}>
                                 <SidebarAccordion/>
                             </Flex>
-                            <Link className='font-medium text-black' to='/contact'>Contact Us</Link>
-                            <Link to='/testimonial' className='font-medium text-black'>Testimonial</Link>
                             <Link className='font-medium text-black' to='/ourhouses'>Our Houses</Link>
                             <Link className='font-medium text-black' to='/estate-design'>Estate Design</Link>
+                            <Link to='/testimonial' className='font-medium text-black'>Testimonials</Link>
+                            <Link className='font-medium text-black' to='/contact'>Contact Us</Link>
                             <Box>
-                                <Text fontWeight={500} fontSize={16} >Al-Ameen IT Hub</Text>
-                                <Text fontWeight={500} fontSize={16} textAlign={'center'} pt={4}>Upcoming Event (A'level School)</Text>
+                                <Text fontWeight={500} fontSize={16}>Al-Ameen IT Hub</Text>
+                                <Text fontWeight={500} fontSize={16} pt={4}>Upcoming Event (A'level School)</Text>
                             </Box>
                         </Flex>
                     </Box>
