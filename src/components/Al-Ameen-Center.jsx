@@ -13,7 +13,15 @@ export default function AlAmeenCenter() {
                     </Heading>
                 </Box>
                 <Box paddingTop={{base:5, md: 5}}>
-                    <Text fontSize={16} lineHeight={7} fontWeight={500}>Al-Ameen Centre is your best in class integrated Islamic Centre cultured to nurture the development of Muslim minds, within a fun-filled but controlled Islamic environment, amongst the young, the no so young and the not too old to want to live in a Muslim environment. It currently houses a Muslim Estate (Al-Ameen Estate), A Centre for Quran memorization and a specialist school designed to produce kids sound in Islamic Knowledge (kewu proper) yet, profound in their grasp of their essential worldly affairs in pursuit of whatever career they choose to pursue in a timely manner.</Text>
+                    <Text fontSize={16} lineHeight={7} fontWeight={500}>
+                        Al-Ameen Centre is your best in class integrated Islamic Centre cultured to 
+                        nurture the development of Muslim minds, within a fun-filled but controlled Islamic environment,
+                        amongst the young, the no so young and the not too old to want to live in a Muslim environment.
+                        It currently houses a Muslim Estate (Al-Ameen Estate), A Centre for Quran Memorisation and an 
+                        Integrated Education College designed to produce kids sound in Islamic Knowledge (kewu proper)
+                        yet, profound in their grasp of the essential worldly education matters
+                        in pursuit of whatever career they choose to later take on, in a timely manner.
+                    </Text>
                     <Text paddingTop={7} fontSize={16}  lineHeight={7} fontWeight={500}>Al-Ameen Centre is located in a high brow area of Ikorodu, Lagos, Nigeria. (Ibeshe Road Axis) and it is promoted by a team of sound Muslims under the NGO named, “Friends of Al-Ameen” who are largely senior career type Muslim professional who will be glad to be associated with you in-shaa Allah.</Text>
                 </Box>    
             </Box>

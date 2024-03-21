@@ -7,8 +7,8 @@ export default function AdmissionCycle() {
     <Box>
         <Box maxW={{md:'85%', base: '95%'}} p={4} borderRadius={8} bg={useColorModeValue('gray.200', 'white')} color={useColorModeValue('black', 'black')} mx={'auto'} my={8}>
           <Heading fontSize={25} textAlign={'center'} pb={4}>Admission Cycle</Heading>
-          <Text fontSize={17} fontWeight={600} textAlign={'center'}>Al-Ameen Integrated College</Text>
-          <Flex justifyContent={'space-around'} mt={5} gap={4} fontWeight={600} width={'100%'} flexWrap={'wrap'}>
+          <Text fontSize={17} fontWeight={500} textAlign={'center'}>Al-Ameen Integrated College</Text>
+          <Flex justifyContent={'space-around'} mt={5} gap={4} fontWeight={500} width={'100%'} flexWrap={'wrap'}>
             <Box w={{md:'45%', base: '100%'}}>
               <Text fontSize={20} pb={4} textDecor={'underline'}>First Semester</Text>
               <Box>
@@ -40,7 +40,7 @@ export default function AdmissionCycle() {
                 <Text py={2}>15<sub>th</sub> june: Second semester holiday/Eid break</Text>
               </Box>
             </Box>
-            <Box w={'100%'} textAlign={'center'}>
+            <Box w={'100%'} textAlign={'center'} py={4}>
               <Text textDecor={'underline'}>25th June: Commencement of second session (Semester 1) for returning students</Text>
               <Text textDecor={'underline'}>August 15: Commencement of session for new students</Text>
             </Box>
