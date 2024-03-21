@@ -35,8 +35,8 @@ export default function AboutAlmeenMemo() {
                         cultured to nurture the development of Muslim minds, within a fun-filled
                         but controlled Islamic environment, amongst the young, the no so young and
                         the not too old to want to live in a Muslim environment. It currently houses 
-                        a Muslim Estate (Al-Ameen Estate), A Centre for Quran Memorisation and an Integrated
-                        Education College designed to produce kids sound in Islamic Knowledge (kewu proper) yet, 
+                        a Muslim Estate (<span className='text-red-600'>Al-Ameen Estate</span>), A <span className='text-green-600'>Centre for Quran Memorisation</span> and an 
+                        <span className='text-purple-600'> Integrated Education College</span>  designed to produce kids sound in Islamic Knowledge (kewu proper) yet, 
                         profound in their grasp of the essential worldly education matters in pursuit of whatever career 
                         they choose to later take on, in a timely manner.
                     </Text>
