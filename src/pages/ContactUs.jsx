@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Box, Button,Flex, Heading, Text, Image } from '@chakra-ui/react';
 import { useColorModeValue } from '@chakra-ui/react';
-import { FaPhoneVolume } from "react-icons/fa6";
+import { FaPhoneVolume, FaWhatsapp } from "react-icons/fa6";
 import { MdAttachEmail } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
@@ -23,8 +23,9 @@ export default function Contact() {
     }
     return (
         <>
+            <div className="h-1 fixed top-0 bg-green-600 w-full scroll-watcher"></div>
             <Header/>
-            <Box>
+            <Box mt={{md:'12vh', base: '12vh'}}>
                 <Flex justifyContent={'center'} position={'relative'} flexDirection={'column'} alignItems={'center'} className='contact'>
                     <Heading color={'white'} fontSize={30} fontWeight={500}>Connect With Us</Heading>
                     <Box color={'white'} mt={5}>
@@ -33,10 +34,10 @@ export default function Contact() {
                         <Link to={'/contact'} className='font-semibold text-1xl underline'>contact</Link>
                     </Box>
                 </Flex>
-                <Box w={{xl: '50%', md: '70%', base: '100%'}} mx={'auto'} mt={10}>
+                <Box w={{xl: '80%', base: '100%'}} mx={'auto'} mt={10}>
                     <Flex justifyContent={'center'} flexWrap={'wrap'} gap={4} >
                         <Flex justifyContent={'center'} gap={3} flexDirection={'column'}
-                        alignItems={'center'} w={{md:'45%', base: '90%'}} rounded={'lg'} bgColor={useColorModeValue('gray.200', 'gray.700')}h={'250px'} p={3}>
+                        alignItems={'center'} w={{md:'30%', base: '90%'}} _hover={{bg:useColorModeValue('green.600', 'white'), color: useColorModeValue('white', 'black')}} transitionDuration={'0.3s'} rounded={'lg'} bgColor={useColorModeValue('gray.200', 'gray.700')}h={'250px'} p={3}>
                             <Box className="">
                                 <FaPhoneVolume className="text-3xl text-green-600"/>
                             </Box>
@@ -48,7 +49,7 @@ export default function Contact() {
                             </Box>
                         </Flex>
                         <Flex justifyContent={'center'} gap={3} flexDirection={'column'}
-                        alignItems={'center'} w={{md:'45%', base: '90%'}} rounded={'lg'} bgColor={useColorModeValue('gray.200', 'gray.700')} h={'250px'} p={3}>
+                        alignItems={'center'} w={{md:'30%', base: '90%'}} _hover={{bg:useColorModeValue('green.600', 'white'), color: useColorModeValue('white', 'black')}} transitionDuration={'0.3s'} rounded={'lg'} bgColor={useColorModeValue('gray.200', 'gray.700')} h={'250px'} p={3}>
                             <Box className="">
                                 <MdAttachEmail className="text-3xl text-green-600"/>
                             </Box>
@@ -56,6 +57,18 @@ export default function Contact() {
                                 <h1 className="pb-3 text-2xl font-semibold">E-MAIL</h1>
                                 <Text>
                                     <Link to='mailto:alameencenter@gmail.com' className='font-semibold'>alameencenter@gmail.com</Link>
+                                </Text>
+                            </Box>
+                        </Flex>
+                        <Flex justifyContent={'center'} gap={3} flexDirection={'column'}
+                        alignItems={'center'} w={{md:'30%', base: '90%'}} _hover={{bg:useColorModeValue('green.600', 'white'), color: useColorModeValue('white', 'black')}} transitionDuration={'0.3s'} rounded={'lg'} bgColor={useColorModeValue('gray.200', 'gray.700')} h={'250px'} p={3}>
+                            <Box className="">
+                                <FaWhatsapp className="text-3xl text-green-600"/>
+                            </Box>
+                            <Box textAlign={'center'}>
+                                <h1 className="pb-3 text-2xl font-semibold">WhatSapp</h1>
+                                <Text>
+                                    <Link to='https://wa.me/+2349074248867' className='font-semibold'>(+234)-907-4248-867</Link>
                                 </Text>
                             </Box>
                         </Flex>
@@ -69,13 +82,13 @@ export default function Contact() {
                 <Box p={{md:4, base: 2}} bg={useColorModeValue('gray.200', 'gray.800')} flex={1} rounded={10} h={''} margin={1} >
                     <form className="md:p-3 p-2 grid grid-cols-1 md:gap-5 gap-2" onSubmit={handleSubmit}>
                         <div className="">
-                            <input id="email" onChange={handleChange} type="email" className="w-full rounded p-3 text-1xl font-semibold bg-white focus:bg-green-700 focus:text-white outline-2 outline-gray-200" placeholder="Email..."/>
+                            <input id="email" onChange={handleChange} type="email" className="w-full rounded p-3 text-1xl font-semibold bg-white focus:bg-gray-600 duration-200 focus:text-white outline-2 outline-gray-200" placeholder="Email..."/>
                         </div>
                         <div className="">
-                            <input id="subject" onChange={handleChange} type="text" className="w-full rounded p-3 text-1xl font-semibold bg-white focus:bg-green-700 focus:text-white outline-2 outline-gray-200" placeholder="Subject..."/>
+                            <input id="subject" onChange={handleChange} type="text" className="w-full rounded p-3 text-1xl font-semibold bg-white focus:bg-gray-600 duration-200 focus:text-white outline-2 outline-gray-200" placeholder="Subject..."/>
                         </div>
                         <div className="">
-                            <textarea onChange={handleChange} className="w-full focus:bg-green-700 focus:text-white text-1xl font-semibold md:mt-3 mt-2 rounded h-36 p-3 outline-2 text-black outline-gray-200 bg-white" placeholder="Type Message" id="message" >
+                            <textarea onChange={handleChange} className="w-full focus:bg-gray-600 duration-200 focus:text-white text-1xl font-semibold md:mt-3 mt-2 rounded h-36 p-3 outline-2 text-black outline-gray-200 bg-white" placeholder="Type Message" id="message" >
     
                             </textarea>
                         </div>

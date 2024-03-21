@@ -13,6 +13,7 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
     <Box position={'relative'}>
+        <div className="h-1 fixed top-0 bg-green-600 w-full scroll-watcher"></div>
         <Header/>
         <Hero/>
         <AlAmeenCenter/>

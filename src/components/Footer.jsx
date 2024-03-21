@@ -32,7 +32,7 @@ export default function Footer() {
                     {/* <Link to='#'><FaInstagram className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-3"/></Link>
                     <Link to='#'><FaTwitter className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-4"/></Link>
                     <Link to='#'><IoLogoYoutube className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-3"/></Link> */}
-                    <Link to='#'><FaWhatsapp className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-1"/></Link>
+                    <Link to='https://wa.me/+2349074248867'><FaWhatsapp className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-1"/></Link>
                 </Flex>
             </Box>
             <Box>

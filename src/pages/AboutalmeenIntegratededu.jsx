@@ -9,8 +9,9 @@ import AdmissionRequirement from '../components/Al-Ameen-Integrated-College/Admi
 export default function AboutalmeenIntegratededu() {
   return (
     <>
+        <div className="h-1 fixed top-0 bg-purple-800 w-full scroll-watcher"></div>
         <MainHeader/>
-        <Box>
+        <Box mt={{md:'12vh', base: '12vh'}}>
             <Flex justifyContent={'center'} position={'relative'} flexDirection={'column'} alignItems={'center'} className='contact'>
                 <Heading color={'white'} fontSize={{md:30, base: 25}} fontWeight={500} textAlign={'center'}>About <br /> Al-Ameen Integrated Education College</Heading>
                 <Box color={'white'} mt={5}>

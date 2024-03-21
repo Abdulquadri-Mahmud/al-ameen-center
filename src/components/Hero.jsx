@@ -50,12 +50,12 @@ export default function Hero() {
       };
 
   return (
-    <Box h={{md:'85vh', base: '100vh'}} w={'full'} mt={0}>
+    <Box h={{md:'90vh', base: '100vh'}} w={'full'} mt={{md:'12vh', base: 18}}>
         <Slider {...settings} className=''>
-            <Box position={'relative'} backgroundPosition="bottom" backgroundRepeat="no-repeat" backgroundSize="cover" backgroundImage={`url(${hero1})`} h={{md:'85vh', base: '100vh'}} w={'full'}>
+            <Box position={'relative'} backgroundPosition="bottom" backgroundRepeat="no-repeat" backgroundSize="cover" backgroundImage={`url(${hero1})`} h={{md:'90vh', base: '100vh'}} w={'full'}>
                 <Box position="absolute" top={0} left={0} w="full" h="full" bg="#0f0f0f" opacity={0.5} bgBlendMode="multiply"/>
                 <Flex justifyContent={'start'} alignItems={'center'} h={'full'} padding={{base: 5, md:32}} zIndex={20} >
-                    <Stack flexDirection={'column'} w={{base:'full', md: '60%'}}>
+                    <Stack flexDirection={'column'} w={{base:'full', md: '50%'}}>
                         <Heading color={'white'} zIndex={20} fontWeight={500} textAlign={{md: 'start', base: 'start'}} fontSize={{ base: '4xl', md: '4xl', lg: '5xl' }} lineHeight={1.5} >Welcome <br /> To Al-Ameen Center</Heading>
                         <Text color={'white'} zIndex={10} fontSize={{md:17, base: 16}} pt={{md:6, base: 3}} fontWeight={500}>Al-Ameen Centre is your best in class integrated Islamic Centre cultured to 
                           nurture the development of Muslim minds, within a fun-filled but controlled Islamic environment,
@@ -72,10 +72,10 @@ export default function Hero() {
                     </Stack>
                 </Flex>
             </Box>
-            <Box position={'relative'} backgroundPosition="bottom" backgroundRepeat="no-repeat" backgroundSize="cover" backgroundImage={`url(${hero5})`} h={{md:'85vh', base: '100vh'}} w={'full'}>
+            <Box position={'relative'} backgroundPosition="bottom" backgroundRepeat="no-repeat" backgroundSize="cover" backgroundImage={`url(${hero5})`} h={{md:'90vh', base: '100vh'}} w={'full'}>
                 <Box position="absolute" top={0} left={0} w="full" h="full" bg="#0f0f0f" opacity={0.5} bgBlendMode="multiply"/>
                 <Flex justifyContent={'start'} alignItems={'center'} h={'full'} padding={{base: 5, md:32}} zIndex={20} >
-                    <Stack flexDirection={'column'} w={{base:'full', md: '60%'}}>
+                    <Stack flexDirection={'column'} w={{base:'full', md: '50%'}}>
                         <Heading color={'white'} zIndex={20} fontWeight={500} textAlign={{md: 'start', base: 'start'}} fontSize={{ base: '4xl', md: '4xl', lg: '5xl' }} lineHeight={1.5} >Welcome <br /> To Al-Ameen Center</Heading>
                         <Text color={'white'} zIndex={10} fontSize={{md:17, base: 16}} pt={{md:6, base: 3}} fontWeight={500}>Al-Ameen Centre is your best in class integrated Islamic Centre cultured to 
                           nurture the development of Muslim minds, within a fun-filled but controlled Islamic environment,
@@ -92,10 +92,10 @@ export default function Hero() {
                     </Stack>
                 </Flex>
             </Box>
-            <Box position={'relative'} backgroundPosition="bottom" backgroundRepeat="no-repeat" backgroundSize="cover" backgroundImage={`url(${hero2})`} h={{md:'85vh', base: '100vh'}} w={'full'}>
+            <Box position={'relative'} backgroundPosition="bottom" backgroundRepeat="no-repeat" backgroundSize="cover" backgroundImage={`url(${hero2})`} h={{md:'90vh', base: '100vh'}} w={'full'}>
                 <Box position="absolute" top={0} left={0} w="full" h="full" bg="#0f0f0f" opacity={0.5} bgBlendMode="multiply"/>
                 <Flex justifyContent={'start'} alignItems={'center'} h={'full'} padding={{base: 5, md:32}} zIndex={20} >
-                    <Stack flexDirection={'column'} w={{base:'full', md: '60%'}}>
+                    <Stack flexDirection={'column'} w={{base:'full', md: '50%'}}>
                         <Heading color={'white'} zIndex={20} fontWeight={500} textAlign={{md: 'start', base: 'start'}} fontSize={{ base: '4xl', md: '4xl', lg: '5xl' }} lineHeight={1.5} >Welcome <br /> To Al-Ameen Center</Heading>
                         <Text color={'white'} zIndex={10} fontSize={{md:17, base: 16}} pt={{md:6, base: 3}} fontWeight={500}>Al-Ameen Centre is your best in class integrated Islamic Centre cultured to 
                           nurture the development of Muslim minds, within a fun-filled but controlled Islamic environment,
@@ -112,10 +112,10 @@ export default function Hero() {
                     </Stack>
                 </Flex>
             </Box>
-            <Box position={'relative'} backgroundPosition="bottom" backgroundRepeat="no-repeat" backgroundSize="cover" backgroundImage={`url(${hero3})`} h={{md:'85vh', base: '100vh'}} w={'full'}>
+            <Box position={'relative'} backgroundPosition="bottom" backgroundRepeat="no-repeat" backgroundSize="cover" backgroundImage={`url(${hero3})`} h={{md:'90vh', base: '100vh'}} w={'full'}>
                 <Box position="absolute" top={0} left={0} w="full" h="full" bg="#0f0f0f" opacity={0.5} bgBlendMode="multiply"/>
                 <Flex justifyContent={'start'} alignItems={'center'} h={'full'} padding={{base: 5, md:32}} zIndex={20} >
-                    <Stack flexDirection={'column'} w={{base:'full', md: '60%'}}>
+                    <Stack flexDirection={'column'} w={{base:'full', md: '50%'}}>
                         <Heading color={'white'} zIndex={20} fontWeight={500} textAlign={{md: 'start', base: 'start'}} fontSize={{ base: '4xl', md: '4xl', lg: '5xl' }} lineHeight={1.5} >Welcome <br /> To Al-Ameen Center</Heading>
                         <Text color={'white'} zIndex={10} fontSize={{md:17, base: 16}} pt={{md:6, base: 3}} fontWeight={500}>Al-Ameen Centre is your best in class integrated Islamic Centre cultured to 
                           nurture the development of Muslim minds, within a fun-filled but controlled Islamic environment,
@@ -132,10 +132,10 @@ export default function Hero() {
                     </Stack>
                 </Flex>
             </Box>
-            <Box position={'relative'} backgroundPosition="bottom" backgroundRepeat="no-repeat" backgroundSize="cover" backgroundImage={`url(${hero4})`} h={{md:'85vh', base: '100vh'}} w={'full'}>
+            <Box position={'relative'} backgroundPosition="bottom" backgroundRepeat="no-repeat" backgroundSize="cover" backgroundImage={`url(${hero4})`} h={{md:'90vh', base: '100vh'}} w={'full'}>
                 <Box position="absolute" top={0} left={0} w="full" h="full" bg="#0f0f0f" opacity={0.5} bgBlendMode="multiply"/>
                 <Flex justifyContent={'start'} alignItems={'center'} h={'full'} padding={{base: 5, md:32}} zIndex={20} >
-                    <Stack flexDirection={'column'} w={{base:'full', md: '60%'}}>
+                    <Stack flexDirection={'column'} w={{base:'full', md: '50%'}}>
                         <Heading color={'white'} zIndex={20} fontWeight={500} textAlign={{md: 'start', base: 'start'}} fontSize={{ base: '4xl', md: '4xl', lg: '5xl' }} lineHeight={1.5} >Welcome <br /> To Al-Ameen Center</Heading>
                         <Text color={'white'} zIndex={10} fontSize={{md:17, base: 16}} pt={{md:6, base: 3}} fontWeight={500}>Al-Ameen Centre is your best in class integrated Islamic Centre cultured to 
                           nurture the development of Muslim minds, within a fun-filled but controlled Islamic environment,

@@ -10,8 +10,8 @@ export default function Header() {
 
   return (
     <>
-        <Box>
-            <Flex position={'sticky'} top={0} zIndex={100} w={'full'}  justifyContent={'space-between'} alignItems={'center'} py={3} px={{base: 2, md: 5}} boxShadow={'md'} bgColor={useColorModeValue('gray.200', 'gray.800')}>
+        <Box position={'fixed'} top={0} zIndex={100} w={'full'}>
+            <Flex justifyContent={'space-between'} alignItems={'center'} py={3} px={{base: 2, md: 5}} boxShadow={'md'} bgColor={useColorModeValue('gray.200', 'gray.800')}>
                 <Box boxSize={'50px'}>
                     <Link href='/'>
                         <Image src={logo1} alt='logo' maxW={'full'} maxH={'full'} rounded='5px'/>

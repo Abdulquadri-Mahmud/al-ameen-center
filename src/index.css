@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.scroll-watcher{
+    scale: 0 1;
+    z-index: 1000;
+    border-radius: 10px;
+    /* transform-origin: left; */
+    animation: scroll-watcher linear;
+    animation-timeline: scroll();
+}
+
+@keyframes scroll-watcher {
+    to{
+        scale: 1 1;
+    }
+}
 
 .accordion label::after{
     content: url('./assets/img/down.png');

@@ -13,7 +13,7 @@ export default function Header() {
                             <Image src={logo} maxW={'full'} maxH={'full'} rounded='5px' alt='Al-Ameen Integrated Education College'/>
                         </Link>
                     </Box>
-                    <Heading fontSize={{md:25, base: 20}} pl={{md: 0, base: 2}}>
+                    <Heading fontSize={{md:25, base: 20}} pl={{md: 0, base: 2}} color={useColorModeValue('purple.700', 'white')}>
                         Al-Ameen Integrated Education College 
                     </Heading>
                 </Flex>

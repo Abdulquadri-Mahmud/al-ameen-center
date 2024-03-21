@@ -7,7 +7,9 @@ export default function ACMQ() {
     <>
         <Flex py={{base: 7, md: 10}} justifyContent={'space-between'} flexWrap={'wrap'} alignItems={'center'} px={{base: 3, md: 5, xl: 10}} bg={useColorModeValue('gray.200', 'gray.700')}>
             <Box width={'100%'} mx={'auto'}>
-                <Heading fontSize={{base:25, md:35}} textAlign={'center'} color={'green.600'}>Al-Ameen Centre for <br /> Qur'an Memorization (ACQM)</Heading>
+                <Heading fontSize={{base:20
+                    
+                    , md:30}} textAlign={'center'} color={useColorModeValue('green.700', 'white')}>Al-Ameen Centre for <br /> Qur'an Memorization (ACQM)</Heading>
                 <Flex justifyContent={'space-around'} alignItems={'center'} flexWrap={'wrap'} mt={10}>
                     <Box w={{md:'45%', base: '100%'}} bg={useColorModeValue('gray.100', 'gray.800')} borderRadius={10} maxW={'full'}>
                         <img src={quran} alt="quran" />

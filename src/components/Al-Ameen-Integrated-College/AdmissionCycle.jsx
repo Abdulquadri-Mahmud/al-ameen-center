@@ -20,15 +20,15 @@ export default function AdmissionCycle() {
                 <Text py={2}>25<sub>th</sub> February Visit Day </Text>
                 <Text py={2}>10<sub>th</sub> March: Integrated Test</Text>
                 <Text py={2}>17<sub>th</sub> March: Semester Revision Commencement and final touch ups</Text>
-                <Text py={2}>24<sub>th</sub> March: ExaminaƟon (4 days) </Text>
+                <Text py={2}>24<sub>th</sub> March: Examination (4 days) </Text>
                 <Text py={2}>27<sub>th</sub> March: 3 days in-house holidays (Fun Time)</Text>
               </Box>
             </Box>
             <Box w={{md:'45%', base: '100%'}}>
               <Text fontSize={20} pb={4} textDecor={'underline'}>Second Semester</Text>
               <Box>
-                <Text py={2}>31<sub>st</sub> March: School ResumpƟon</Text>
-                <Text py={2}>1<sub>st</sub> April: OrientaƟon & Commencement of academic acƟviƟes</Text>
+                <Text py={2}>31<sub>st</sub> March: School Resumption</Text>
+                <Text py={2}>1<sub>st</sub> April: Orientation & Commencement of academic activities</Text>
                 <Text py={2}>7<sub>th</sub> April: First Fortnight test series </Text>
                 <Text py={2}>14<sub>th</sub> April: 2nd Fortnight Test series </Text>
                 <Text py={2}>5<sub>th</sub> May: 3rd Fortnight Test Series</Text>
@@ -36,7 +36,7 @@ export default function AdmissionCycle() {
                 <Text py={2}>26<sub>th</sub> May: Integrated Test</Text>
                 <Text py={2}>17<sub>th</sub> March: Semester Revision Commencement and final touch ups</Text>
                 <Text py={2}>2<sub>nd</sub> June: Integrated Test </Text>
-                <Text py={2}>10<sub>th</sub> june: ExaminaƟon (4 days)</Text>
+                <Text py={2}>10<sub>th</sub> june: Examination (4 days)</Text>
                 <Text py={2}>15<sub>th</sub> june: Second semester holiday/Eid break</Text>
               </Box>
             </Box>

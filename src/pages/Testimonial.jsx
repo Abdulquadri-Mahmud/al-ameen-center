@@ -8,8 +8,9 @@ import ITHubTestimonial from "../components/ITHubTestimonial";
 export default function Testimonial() {
   return (
     <>
+      <div className="h-1 fixed top-0 bg-green-600 w-full scroll-watcher"></div>
       <MainHeader/>
-        <Box>
+        <Box mt={{md:'12vh', base: '12vh'}}>
             <Flex justifyContent={'center'} position={'relative'} flexDirection={'column'} alignItems={'center'} className='contact'>
                 <Heading color={'white'} fontWeight={500} fontSize={30} textAlign={'center'}>Our Testimonials</Heading>
                 <Box color={'white'} mt={5}>

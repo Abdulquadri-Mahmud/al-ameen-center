@@ -17,10 +17,11 @@ import image7 from '../components/Al-Ameen-estate/estate-design-img/image7.jpg';
 export default function AboutAlmeenEstate() {
   return (
     <>
+        <div className="h-1 fixed top-0 bg-red-600 w-full scroll-watcher"></div>
         <Box>
           <MainHeader/>
         </Box>
-        <Box>
+        <Box mt={{md:'12vh', base: '12vh'}}>
             <Flex justifyContent={'center'} position={'relative'} flexDirection={'column'} alignItems={'center'} className='contact'>
                 <Heading color={'white'} fontWeight={500} fontSize={30}>About Al-Ameen Estate</Heading>
                 <Box color={'white'} mt={5}>

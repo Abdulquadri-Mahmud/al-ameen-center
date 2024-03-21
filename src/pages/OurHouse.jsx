@@ -1,15 +1,16 @@
+import MainHeader from '../components/Al-Ameen-estate/Main-Page/MainHeader';
 import OurHouses from '../components/Al-Ameen-estate/OurHouses';
-import Footer from '../components/Footer';
 import { Box,Flex, Heading, } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
-import Header from '../components/Header';
+import Footer3 from '../components/Footer3';
 
 export default function OurHouse() {
 
   return (
     <Box>
-      <Header/>
-      <Box>
+      <div className="h-1 fixed top-0 bg-red-600 w-full scroll-watcher"></div>
+      <MainHeader/>
+      <Box mt={{md:'12vh', base: '12vh'}}>
         <Flex justifyContent={'center'} position={'relative'} flexDirection={'column'} alignItems={'center'} className='contact'>
             <Heading color={'white'} fontWeight={500} fontSize={30} textAlign={'center'}>Our Houses</Heading>
             <Box color={'white'} mt={5}>
@@ -20,7 +21,7 @@ export default function OurHouse() {
         </Flex>
       </Box>
       <OurHouses/>
-      <Footer/>
+      <Footer3/>
     </Box>
   )
 }

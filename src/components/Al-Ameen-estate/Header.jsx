@@ -14,7 +14,7 @@ export default function Header() {
                         <Image src={logo} maxW={'full'} maxH={'full'} rounded='5px' alt='Al-Ameen Integrated Education College'/>
                     </Link>
                 </Box>
-                <Heading fontSize={{md:25, base: 20}} color={'red.600'}>
+                <Heading fontSize={{md:25, base: 20}} color={useColorModeValue('red.600', 'white')}>
                     Al-Ameen Estate 
                 </Heading>
             </Flex>

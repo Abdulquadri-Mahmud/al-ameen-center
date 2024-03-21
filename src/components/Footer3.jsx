@@ -19,7 +19,7 @@ export default function Footer3() {
             <Box>
                 <Heading fontSize={25} fontWeight={500} textDecor={'underline'}>About Us</Heading>
                 <Box mt={4}>
-                    <Text fontWeight={600}>Al-Ameen Centre is your best in class integrated Islamic Centre cultured to nurture the development of Muslim minds, within a fun-filled but... </Text>
+                    <Text fontWeight={500}>Al-Ameen Centre is your best in class integrated Islamic Centre cultured to nurture the development of Muslim minds, within a fun-filled but... </Text>
                     <Box mt={2}>
                         <Link to={'/about'} className='text-center underline font-semibold text-white'>Read More</Link>
                     </Box>
@@ -32,7 +32,7 @@ export default function Footer3() {
                     {/* <Link to='#'><FaInstagram className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-3"/></Link>
                     <Link to='#'><FaTwitter className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-4"/></Link>
                     <Link to='#'><IoLogoYoutube className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-3"/></Link> */}
-                    <Link to='#'><FaWhatsapp className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-1"/></Link>
+                    <Link to='https://wa.me/+2349074248867'><FaWhatsapp className="text-[20px] hover:text-black-600 duration-200 hover:-translate-y-1 translate-y-1"/></Link>
                 </Flex>
             </Box>
             <Box>
@@ -87,19 +87,19 @@ export default function Footer3() {
                 <Box mt={4}>
                     <Box>
                         <span className='font-semibold'>Address: </span>
-                        <Text className='font-semibold'>1, Lateef Akingbade Street, Oluodo Rd, Ikorodu, Lagos</Text>
+                        <Text fontWeight={500} isTruncated>1, Lateef Akingbade Street, Oluodo Rd, Ikorodu, Lagos</Text>
                     </Box>
                     <Box>
                         <span className='font-semibold'>Email: </span>
-                        <Link to='mailto:alameencenter@gmail.com' className='font-semibold'>alameencenter@gmail.com</Link>
+                        <Link to='mailto:alameencenter@gmail.com' className='font-medium'>alameencenter@gmail.com</Link>
                     </Box>
                     <Box pt={2}>
                         <span className='font-semibold'>Phone: </span>
-                        <Link to='tel:+234-907-424-8867' className='font-semibold'>+234-907-424-8867 </Link>
+                        <Link to='tel:+234-907-424-8867' className='font-medium'>+234-907-424-8867 </Link>
                     </Box>
                     <Box pt={2}>
                         <span className='font-semibold'>Phone: </span>
-                        <Link to='tel:+234-807-746-5423' className='font-semibold'>+234-807-746-5423 </Link>
+                        <Link to='tel:+234-807-746-5423' className='font-medium'>+234-807-746-5423 </Link>
                     </Box>
                 </Box>
             </Box>

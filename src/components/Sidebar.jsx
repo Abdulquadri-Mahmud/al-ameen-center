@@ -33,7 +33,7 @@ export default function Sidebar() {
                             <Link className='font-medium text-black' to='/estate-design'>Estate Design</Link>
                             <Link to='/testimonial' className='font-medium text-black'>Testimonials</Link>
                             <Link className='font-medium text-black' to='/contact'>Contact Us</Link>
-                            <Box>
+                            <Box color={'black'}>
                                 <Text fontWeight={500} fontSize={16}>Al-Ameen IT Hub</Text>
                                 <Text fontWeight={500} fontSize={16} pt={4}>Upcoming Event (A'level School)</Text>
                             </Box>
