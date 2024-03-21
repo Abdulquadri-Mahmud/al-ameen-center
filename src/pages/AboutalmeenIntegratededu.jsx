@@ -29,7 +29,7 @@ export default function AboutalmeenIntegratededu() {
         {/* <FAQ/> */}
         <Box w={{base: '100%', md: '60%'}} mx={'auto'} textAlign={'center'}>
           <Heading fontSize={25} fontWeight={500}>Special Note on Holidays</Heading>
-          <Text fontWeight={600} pt={4}>Our holidays are minimal. Not more than 8 weeks max per year built around the Eids and late December. We do short internal breaks and sports time is on our program of activities for mental breaks.</Text>
+          <Text fontWeight={500} pt={4}>Our holidays are minimal. Not more than 8 weeks max per year built around the Eids and late December. We do short internal breaks and sports time is on our program of activities for mental breaks.</Text>
         </Box>
         <Footer2/> 
     </>
