@@ -10,19 +10,19 @@ export default function AlAmeenCenter() {
                 <Box>
                     <Heading textAlign={{md:'center', base: 'start'}} fontWeight={500} fontSize={{ base: '1.5rem', md: '2rem' }}>
                         About Al-Ameen Center
-                    </Heading>
+                    </Heading>j
                 </Box>
                 <Box paddingTop={{base:5, md: 5}}>
-                    <Text fontSize={16} lineHeight={7} fontWeight={500}>
+                    <Text fontSize={16} fontWeight={500}>
                         Al-Ameen Centre is your best in class integrated Islamic Centre cultured to 
                         nurture the development of Muslim minds, within a fun-filled but controlled Islamic environment,
                         amongst the young, the no so young and the not too old to want to live in a Muslim environment.
-                        It currently houses a Muslim Estate (Al-Ameen Estate), A Centre for Quran Memorisation and an 
-                        Integrated Education College designed to produce kids sound in Islamic Knowledge (kewu proper)
+                        It currently houses a Muslim Estate (<span className='text-red-600'>Al-Ameen Estate</span>), A <span className='text-green-600'>Centre for Quran Memorisation</span> and an 
+                        <span className='text-purple-600'> Integrated Education College</span> designed to produce kids sound in Islamic Knowledge (kewu proper)
                         yet, profound in their grasp of the essential worldly education matters
                         in pursuit of whatever career they choose to later take on, in a timely manner.
                     </Text>
-                    <Text paddingTop={7} fontSize={16}  lineHeight={7} fontWeight={500}>Al-Ameen Centre is located in a high brow area of Ikorodu, Lagos, Nigeria. (Ibeshe Road Axis) and it is promoted by a team of sound Muslims under the NGO named, “Friends of Al-Ameen” who are largely senior career type Muslim professional who will be glad to be associated with you in-shaa Allah.</Text>
+                    <Text paddingTop={4} fontSize={16} fontWeight={500}>Al-Ameen Centre is located in a high brow area of Ikorodu, Lagos, Nigeria. (Ibeshe Road Axis) and it is promoted by a team of sound Muslims under the NGO named, “Friends of Al-Ameen” who are largely senior career type Muslim professional who will be glad to be associated with you in-shaa Allah.</Text>
                 </Box>    
             </Box>
             <Box width={{base: '100%', md:'50%'}} position={'relative'} paddingTop={{base: 8, md: 10}} zIndex={1}>

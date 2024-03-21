@@ -25,7 +25,7 @@ export default function Contact() {
         <>
             <div className="h-1 fixed top-0 bg-green-600 w-full scroll-watcher"></div>
             <Header/>
-            <Box mt={{md:'12vh', base: '12vh'}}>
+            <Box>
                 <Flex justifyContent={'center'} position={'relative'} flexDirection={'column'} alignItems={'center'} className='contact'>
                     <Heading color={'white'} fontSize={30} fontWeight={500}>Connect With Us</Heading>
                     <Box color={'white'} mt={5}>

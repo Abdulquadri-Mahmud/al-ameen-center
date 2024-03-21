@@ -21,9 +21,9 @@ export default function AboutAlmeenEstate() {
         <Box>
           <MainHeader/>
         </Box>
-        <Box mt={{md:'12vh', base: '12vh'}}>
+        <Box>
             <Flex justifyContent={'center'} position={'relative'} flexDirection={'column'} alignItems={'center'} className='contact'>
-                <Heading color={'white'} fontWeight={500} fontSize={30}>About Al-Ameen Estate</Heading>
+                <Heading color={'white'} fontWeight={500} fontSize={30} textAlign={'center'}>About Al-Ameen Estate</Heading>
                 <Box color={'white'} mt={5}>
                     <Link to={'/'} className='font-semibold text-1xl underline'>Home</Link>
                     <span> / </span>

@@ -9,7 +9,7 @@ import Sidebar from '../../components/Sidebar';
 export default function MainHeader() {
   return (
     <div>
-        <Box position={'fixed'} top={0} zIndex={100} w={'full'} >
+        <Box position={'sticky'} top={0} zIndex={100} w={'full'}>
             <Flex justifyContent={'space-between'} alignItems={'center'} py={0} px={{base: 5, md: 10}} boxShadow={'md'} bgColor={useColorModeValue('gray.200', 'gray.800')}>
                 <Box boxSize={20}>
                     <Link href='/'>

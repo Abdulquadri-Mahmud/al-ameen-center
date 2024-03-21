@@ -10,7 +10,7 @@ export default function AlAmeenEstateFaq() {
     <Box>
       <div className="h-1 fixed top-0 bg-red-600 w-full scroll-watcher"></div>
       <MainHeader/>
-      <Box mt={{md:'12vh', base: '12vh'}}>
+      <Box>
         <Flex justifyContent={'center'} position={'relative'} flexDirection={'column'} alignItems={'center'} className='contact'>
             <Heading color={'white'} fontSize={30} fontWeight={500} textAlign={'center'}>Al-Ameen Estate FAQ</Heading>
             <Box color={'white'} mt={5}>

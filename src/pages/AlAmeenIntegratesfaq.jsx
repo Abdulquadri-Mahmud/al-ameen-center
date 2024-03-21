@@ -10,7 +10,7 @@ export default function AlAmeenIntegratesfaq() {
     <Box>
       <div className="h-1 fixed top-0 bg-purple-700 w-full scroll-watcher"></div>
       <MainHeader/>
-      <Box mt={{md:'12vh', base: '12vh'}}>
+      <Box>
         <Flex justifyContent={'center'} position={'relative'} flexDirection={'column'} alignItems={'center'} w={'full'} className='contact'>
             <Heading color={'white'} fontSize={{md:30, base: 25}} fontWeight={500} textAlign={'center'}>Al-Ameen <br /> Integrated Education FAQ</Heading>
             <Box color={'white'} mt={5}>
