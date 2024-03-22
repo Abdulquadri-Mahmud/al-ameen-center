@@ -1,4 +1,5 @@
 import { Box,Heading, Text } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 export default function ProgramDetails() {
   return (
@@ -13,6 +14,7 @@ export default function ProgramDetails() {
                 We are in'shaa Allah on track to shortly commence our A'level program which would complement this effort and enable our graduands move into university at 200L if they wish.
                 we plan to add A level school (1yr). This A’level school may enable anyone who is particularly age centric cut back 1 year in the university although for us, we think age 23 is great enough as there are even advantages in maturity.
             </Text>
+            <Link to='/about-al-ameen-integrated-edu' className='text-purple-700 text-center font-semibold text-1xl underline'>See More</Link>
         </Box>
     </Box>
   )

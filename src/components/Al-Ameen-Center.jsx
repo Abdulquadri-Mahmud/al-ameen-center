@@ -10,7 +10,7 @@ export default function AlAmeenCenter() {
                 <Box>
                     <Heading textAlign={{md:'center', base: 'start'}} fontWeight={500} fontSize={{ base: '1.5rem', md: '2rem' }}>
                         About Al-Ameen Center
-                    </Heading>j
+                    </Heading>
                 </Box>
                 <Box paddingTop={{base:5, md: 5}}>
                     <Text fontSize={16} fontWeight={500}>
