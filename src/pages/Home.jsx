@@ -9,6 +9,7 @@ import Page from '../components/Al-Ameen-Integrated-College/Page';
 import Page3 from '../components/Al-Ameen-estate/Page3';
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import EstateDesignsSlider from '../components/EstateDesignsSlider'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Whatsapp/>
         <Page/>
         <Page3/>
+        <EstateDesignsSlider/>
         <Footer/>
     </Box>
   )
