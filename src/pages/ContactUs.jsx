@@ -44,7 +44,7 @@ export default function Contact() {
                             <Box textAlign={'center'}>
                                 <h1 className="pb-3 text-2xl text-center font-semibold">Phone</h1>
                                 <Text>
-                                    <Link to='tel:+2347047594667' className='font-semibold'>(+234) 704-7594-667</Link>
+                                    <Link to='tel:+2348077465423' className='font-semibold'>(+234)-807-746-5423</Link>
                                 </Text>
                             </Box>
                         </Flex>
